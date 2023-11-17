@@ -1,0 +1,661 @@
+.homeH1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 60px !important;
+  width: 50vw !important;
+}
+.homeParagraph {
+  width: 40vw !important;
+  font-size: 20px !important;
+}
+.fluid {
+  height: 800px;
+}
+
+.btnDark {
+  font-size: 25px;
+  background: #000000 !important;
+  color: #fff !important;
+  position: relative;
+  bottom: 0px;
+  right: 30px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.btnDark:hover {
+  bottom: 10px;
+  box-shadow: 0px 10px 20px rgb(157, 157, 157);
+  /* box-shadow: 10px 5px 5px 5px 10px #ff0000; */
+}
+/* =========================================================== */
+
+.secondDivContent h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 50px !important;
+  text-align: center;
+}
+.secondDivContent p {
+  font-size: 20px !important;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.secondDivContent {
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  background-color: #fae053 !important;
+}
+
+/* ============ */
+.smallIconAndIcon {
+  text-align: center;
+  margin: auto;
+}
+.btnDiv {
+  text-align: center;
+  padding: 10px !important;
+}
+.secondTabletImg img {
+  height: 650px;
+}
+.secondTabletImgCarousel img {
+  height: 540px;
+}
+/* =========================================================================== */
+
+/* ========= media screen ================================================================== */
+
+/* =========================================================================== */
+
+@media screen and (max-width: 1350px) and (min-width: 1250px) {
+  .tabletImg {
+    left: 150px !important;
+  }
+  .tabletImgCarousel {
+    left: 230px !important;
+  }
+  .phoneImg img {
+    height: 500px;
+  }
+  .phoneImg {
+    top: 220px !important;
+    left: 600px !important;
+  }
+  .phoneImgCarousel img {
+    height: 400px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  .phoneImgCarousel {
+    top: 227px !important;
+    left: 650px;
+  }
+  .colorDive {
+    width: 800px !important;
+  }
+  .homeParagraph {
+    width: 50vw !important;
+    font-size: 20px !important;
+  }
+
+  /* second page */
+  .secondPhoneImg {
+    left: 650px !important;
+  }
+  .secondPhoneImgCarousel {
+    left: 678px !important;
+  }
+
+  .secondTabletImg {
+    left: 350px !important;
+  }
+  .secondTabletImgCarousel {
+    left: 380px !important;
+  }
+}
+
+/* ================== second  size screen ================================================================= */
+@media screen and (max-width: 1250px) and (min-width: 1040px) {
+  .tabletImg img {
+    height: 600px;
+  }
+  .tabletImg {
+    left: 100px !important;
+    top: 150px !important;
+  }
+  .tabletImgCarousel img {
+    height: 500px;
+  }
+  .tabletImgCarousel {
+    top: 600px !important;
+    left: 180px !important;
+  }
+  .phoneImg img {
+    height: 500px;
+  }
+  .phoneImg {
+    top: 200px !important;
+    left: 480px !important;
+  }
+  .phoneImgCarousel img {
+    height: 400px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  .phoneImgCarousel {
+    top: 207px !important;
+    left: 529px;
+  }
+  .colorDive {
+    width: 800px !important;
+  }
+  .homeH1 {
+    font-size: 50px !important;
+  }
+  .homeParagraph {
+    font-size: 20px !important;
+  }
+
+  /* second page */
+
+  /* second page */
+  .secondPhoneImg {
+    left: 600px !important;
+  }
+  .secondPhoneImgCarousel {
+    left: 628px !important;
+  }
+
+  .secondTabletImg {
+    left: 320px !important;
+  }
+  .secondTabletImgCarousel {
+    left: 350px !important;
+  }
+  .secondDivContent h2 {
+    font-size: 45px !important;
+    padding: 5px;
+  }
+  .smallIcon {
+    font-size: 12px;
+  }
+  /* .secondDivContent {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+  
+  .homeParagraph {
+    width: 36vw !important;
+    font-size: 20px !important;
+  }
+  .homeH1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px !important;
+    width: 50vw !important;
+  }
+  ==============================================
+  .secondTabletImg {
+    left: 350px !important;
+  }
+  .secondTabletImgCarousel {
+    left: 380px !important;
+  }
+  .secondPhoneImg {
+    left: 750px !important;
+  }
+  .secondPhoneImgCarousel {
+    left: 778px !important;
+  } */
+}
+
+/* ================== second  size screen ================================================================= */
+@media screen and (max-width: 1040px) and (min-width: 770px) {
+  .btnDark {
+    font-size: 15px;
+  }
+  .tabletImg img {
+    height: 450px;
+    width: 350px !important;
+  }
+  .tabletImg {
+    left: -130px !important;
+    top: 60px !important;
+  }
+  .tabletImgCarousel img {
+    width: 300px !important;
+    height: 370px;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+  }
+  .tabletImgCarousel {
+    top: 360px !important;
+    left: -80px !important;
+  }
+  .phoneImg {
+    display: none !important;
+  }
+
+  .phoneImgCarousel {
+    display: none !important;
+  }
+
+  .colorDive {
+    width: 700px !important;
+  }
+  .homeH1 {
+    width: 55vw !important;
+    font-size: 40px !important;
+  }
+  .homeParagraph {
+    font-size: 15px !important;
+  }
+
+  /* second page */
+
+  /* second page */
+  .secondTabletImg {
+    display: none !important;
+  }
+  .secondTabletImgCarousel {
+    display: none !important;
+  }
+
+  .secondPhoneImg {
+    top: 600px !important;
+    left: 65% !important;
+  }
+  .secondPhoneImgCarousel {
+    top: 626px !important;
+    left: 68% !important;
+  }
+
+  .secondPhoneImgCarousel img {
+    width: 230px !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+  }
+
+  .secondDivContent h2 {
+    font-size: 30px !important;
+    padding: 5px;
+  }
+
+  .secondDivContent p {
+    font-size: 18px !important;
+    margin: 0px !important;
+    padding: 10px !important;
+  }
+
+  .smallDiv {
+    font-size: 13px;
+    width: 50vw !important;
+  }
+}
+
+/* ================== second  size screen ================================================================= */
+@media screen and (max-width: 770px) and (min-width: 595px) {
+  .glassesImg {
+    width: 150px !important;
+  }
+  .btnDark {
+    font-size: 15px;
+  }
+  .tabletImg img {
+    height: 350px;
+    width: 250px !important;
+  }
+  .tabletImg {
+    left: -110px !important;
+    top: 60px !important;
+  }
+  .tabletImgCarousel {
+    top: 280px !important;
+    left: -70px !important;
+  }
+  .tabletImgCarousel img {
+    width: 210px !important;
+    height: 300px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  .phoneImg {
+    display: none !important;
+  }
+  .phoneImgCarousel {
+    display: none !important;
+  }
+
+  .colorDive {
+    width: 600px !important;
+  }
+  .homeH1 {
+    width: 55vw !important;
+    font-size: 30px !important;
+  }
+  .homeParagraph {
+    font-size: 15px !important;
+  }
+
+  /* second page */
+  /* second page */
+  .secondTabletImg {
+    display: none !important;
+  }
+  .secondTabletImgCarousel {
+    display: none !important;
+  }
+  .secondPhoneImg img {
+    width: 300px !important;
+    height: 500px;
+  }
+
+  .secondPhoneImg {
+    top: 650px !important;
+    left: 65% !important;
+  }
+
+  .secondPhoneImgCarousel {
+    top: 670px !important;
+    left: 68% !important;
+  }
+
+  .secondPhoneImgCarousel img {
+    width: 180px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+
+  .secondDivContent h2 {
+    font-size: 22px !important;
+    padding: 5px;
+  }
+
+  .secondDivContent p {
+    font-size: 13px !important;
+    padding: 10px !important;
+  }
+
+  .smallDiv {
+    font-size: 10px;
+    width: 90vw !important;
+  }
+  .btnSectionTow button {
+    font-size: 12px !important;
+  }
+}
+
+/* ================== before small  size screen ================================================================= */
+@media screen and (max-width: 595px) and (min-width: 500px) {
+  .glassesImg {
+    left: 350px;
+    width: 130px !important;
+  }
+
+  .tabletImg img {
+    height: 320px;
+    width: 200px !important;
+  }
+  .tabletImg {
+    left: -150px !important;
+    top: 180px !important;
+  }
+  .tabletImgCarousel {
+    top: 370px !important;
+    left: -110px !important;
+  }
+  .tabletImgCarousel img {
+    width: 167px !important;
+    height: 270px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  .phoneImg {
+    display: none !important;
+  }
+  .phoneImgCarousel {
+    display: none !important;
+  }
+
+  .colorDive {
+    width: 500px !important;
+  }
+  .fluid {
+    height: 100vh !important;
+  }
+  .homeH1 {
+    width: 65vw !important;
+    font-size: 30px !important;
+  }
+  .homeParagraph {
+    font-size: 15px !important;
+  }
+  .btnDark {
+    margin: 0px !important;
+    font-size: 10px;
+  }
+  /* second page */
+
+  /* second page */
+
+  .secondTabletImg {
+    display: none !important;
+  }
+  .secondTabletImgCarousel {
+    display: none !important;
+  }
+  .secondPhoneImg img {
+    width: 500px !important;
+    height: 500px;
+  }
+
+  .secondPhoneImg {
+    top: 550px !important;
+    left: 15% !important;
+  }
+
+  .secondPhoneImgCarousel {
+    top: 570px !important;
+    left: 19% !important;
+  }
+
+  .secondPhoneImgCarousel img {
+    width: 400px !important;
+    height: 380px !important;
+    border-radius: 40px !important;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+  }
+  .secondSecondDiv {
+    height: 110vh;
+  }
+
+  .secondDivContent {
+    width: 100vw !important;
+    transform: translateY(500px);
+    -webkit-transform: translateY(500px);
+    -moz-transform: translateY(500px);
+    -ms-transform: translateY(500px);
+    -o-transform: translateY(500px);
+  }
+  .secondDivContent h2 {
+    font-size: 22px !important;
+    padding: 5px;
+  }
+
+  .secondDivContent p {
+    font-size: 13px !important;
+    padding: 10px !important;
+  }
+
+  .smallDiv {
+    font-size: 10px;
+    width: 90vw !important;
+  }
+  .btnSectionTow button {
+    font-size: 12px !important;
+  }
+  .secondColorDive {
+    height: 900px !important;
+  }
+}
+/* ================== before small  size screen ================================================================= */
+@media screen and (max-width: 499px) {
+  .fluid {
+    /* background-color: tomato; */
+    height: 70vh !important;
+  }
+  .phoneImg {
+    display: none !important;
+  }
+  .phoneImgCarousel {
+    display: none !important;
+  }
+  .glassesImg {
+    left: 250px;
+    width: 100px !important;
+  }
+  .tabletImg {
+    left: -80px !important;
+    top: 200px !important;
+  }
+
+  .tabletImg img {
+    height: 150px;
+    width: 100px !important;
+  }
+  .tabletImgCarousel {
+    top: 240px !important;
+    left: -47px !important;
+  }
+
+  .tabletImgCarousel img {
+    width: 85px !important;
+    height: 123px;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+  }
+
+  .colorDive {
+    height: 500px !important;
+    width: 300px !important;
+  }
+
+  .homeH1 {
+    width: 60vw !important;
+    font-size: 20px !important;
+  }
+  .homeParagraph {
+    width: 55vw !important;
+    font-size: 12px !important;
+  }
+  .btnDark {
+    margin: 0px !important;
+    font-size: 7px;
+  }
+  /* second page */
+  /* second page */
+
+  /* second page */
+
+  .secondTabletImg {
+    display: none !important;
+  }
+  .secondTabletImgCarousel {
+    display: none !important;
+  }
+  .secondPhoneImg img {
+    width: 300px !important;
+    height: 300px;
+  }
+
+  .secondPhoneImg {
+    top: 550px !important;
+    left: 15% !important;
+  }
+
+  .secondPhoneImgCarousel {
+    top: 560px !important;
+    left: 19% !important;
+  }
+
+  .secondPhoneImgCarousel img {
+    width: 180px !important;
+    height: 230px !important;
+    border-radius: 13px !important;
+    -webkit-border-radius: 13px !important;
+    -moz-border-radius: 13px !important;
+    -ms-border-radius: 13px !important;
+    -o-border-radius: 13px !important;
+  }
+  .secondSecondDiv {
+    height: 110vh;
+  }
+
+  .secondDivContent {
+    width: 100vw !important;
+    transform: translateY(500px);
+    -webkit-transform: translateY(500px);
+    -moz-transform: translateY(500px);
+    -ms-transform: translateY(500px);
+    -o-transform: translateY(500px);
+  }
+  .secondDivContent h2 {
+    font-size: 22px !important;
+    padding: 5px;
+  }
+
+  .secondDivContent p {
+    font-size: 13px !important;
+    padding: 10px !important;
+  }
+
+  .smallDiv {
+    font-size: 10px;
+    width: 90vw !important;
+  }
+  .btnSectionTow button {
+    font-size: 12px !important;
+  }
+  .secondColorDive {
+    height: 900px !important;
+    /* background-color: tomato !important; */
+  }
+}

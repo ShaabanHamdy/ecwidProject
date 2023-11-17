@@ -1,0 +1,151 @@
+.navFixed{
+  z-index: 99999999999;
+}
+.iconDiv {
+  margin: 10px 0px 10px 90px;
+}
+.Ecwid {
+  line-height: 3px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.byLighspeed {
+  font-size: 12px;
+  line-height: 0px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+/* ================================================= */
+.link {
+  color: black;
+  text-decoration: none;
+}
+.MarketYour{  
+  position: relative;
+}
+.MarketYour::before {
+  content: "";
+  position: absolute;
+  width: 49%;
+  height: 3px;
+  bottom: 13px;
+  left: 18px;
+  background-color: #fae053;
+}
+.MarketYour:hover .BsArrowRight {
+  font-size: 30px;
+  width: 50px;
+}
+
+.Learn {
+  position: relative;
+}
+
+.Learn::before {
+  content: "";
+  position: absolute;
+  width: 13%;
+  height: 3px;
+  bottom: 13px;
+  left: 18px;
+  background-color: #fae053;
+}
+.Learn:hover .BsArrowRight {
+  font-size: 30px;
+  width: 50px;
+}
+.sellAnywhere {
+  position: relative;
+}
+
+.sellAnywhere::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 3px;
+  bottom: 13px;
+  left: 18px;
+  background-color: #fae053;
+}
+.BsArrowRight {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.sellAnywhere:hover .BsArrowRight {
+  font-size: 30px;
+  width: 50px;
+}
+.liWeb {
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+  text-decoration: none;
+}
+.liWeb:hover {
+  background-color: #dcd6d6;
+}
+
+.navLink {
+  color: rgb(57, 49, 49) !important;
+  font-weight: 700;
+  font-size: 19px;
+  margin-left: 30px;
+}
+.navLink:hover {
+  color: black !important;
+}
+
+.dropdown {
+  margin-right: 100px !important;
+  border: 1px solid #fff !important;
+  box-shadow: 1px 1px 10px #eae8e8;
+  width: 500px ;
+}
+
+.dropdown::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  padding: 2px 5px;
+  border-top: 20px;
+  top: -8px;
+  left: 50px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.btnDark {
+  font-size: 18px;
+  background: #000000 !important;
+  color: #fff !important;
+  position: relative;
+  bottom: 0px;
+  right: 30px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.btnDark:hover {
+  bottom: 10px;
+}
+@media screen and (max-width : 992px) {
+  .iconDiv{
+    margin: 0px !important;
+  }
+
+  .dropdown::before {
+    display: none;
+  } 
+}

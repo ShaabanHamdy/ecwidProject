@@ -1,0 +1,41 @@
+.Grow {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px !important;
+  margin-bottom: 30px;
+}
+
+.sellBtn {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  max-width: fit-content;
+}
+.sellBtn:hover .BsArrowRight {
+  margin-left: 20px !important;
+  font-size: 25px !important;
+}
+.sellBtn:hover::before {
+  content: "";
+  height: 2px;
+  width: 55%;
+  background-color: #fae053;
+  position: absolute;
+  top: 43px;
+}
+
+@media screen and (max-width: 992px) {
+  .mangeColDiv {
+    width: 100vw;
+  }
+  .mangeRow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imgDiv {
+    width: 100vw;
+  }
+}

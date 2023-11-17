@@ -1,0 +1,57 @@
+.selContainer {
+  overflow-x: hidden;
+}
+.glassesImag {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+}
+.sellH2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px !important;
+  margin-bottom: 30px;
+}
+.sellBtn {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  max-width: fit-content;
+}
+.sellBtn:hover .BsArrowRight {
+  margin-left: 20px !important;
+  font-size: 25px !important;
+}
+.sellBtn:hover::before {
+  content: "";
+  height: 2px;
+  width: 55%;
+  background-color: #fae053;
+  position: absolute;
+  top: 43px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .selContent p {
+    font-size: 20px !important;
+  }
+  .selContent li {
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 772px) {
+  .selContent p {
+    width: 78vw;
+  }
+  .selContent li {
+    width: 70vw;
+    
+  }
+  .imgDiv {
+    width: 100%;
+  }
+}

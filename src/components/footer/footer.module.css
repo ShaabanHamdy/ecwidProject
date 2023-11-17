@@ -1,0 +1,246 @@
+.row li {
+  color: white;
+  padding: 5px;
+}
+.row li:hover {
+  color: rgb(124, 123, 121);
+  cursor: pointer;
+}
+.row p {
+  color: rgb(124, 123, 121);
+}
+.Ecwid {
+  line-height: 3px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.byLighspeed {
+  color: white;
+  font-size: 12px;
+  line-height: 0px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+.img {
+  width: 50%;
+  margin: 5px;
+}
+.inputClass {
+  width: 30%;
+  color: #fff !important;
+  font-family: Montserrat, sans-serif;
+}
+.inputClass::placeholder {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  right: 68%;
+  bottom: 10px;
+  cursor: pointer;
+}
+.COL p {
+  min-height: 10vh;
+}
+
+.COL p {
+  cursor: pointer;
+}
+.arrow {
+  cursor: pointer;
+  color: #fff;
+}
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 0.5s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: all 0.5s;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.DROP {
+  cursor: pointer;
+}
+
+.COL ul {
+  width: 10vw;
+}
+/* ====================================================================================================================== */
+@media screen and (max-width: 1475px) and (min-width: 1175px) {
+  .COL ul li {
+    width: 14vw;
+  }
+  .divImgIcon {
+    width: 40% !important;
+  }
+
+  .img {
+    width: 150px !important;
+  }
+  .inputClass {
+    width: 100%;
+  }
+  .icon {
+    right: 5%;
+  }
+  .SearchCol {
+    width: 40%;
+  }
+  .iconsCol {
+    width: 60%;
+  }
+}
+
+/* =========================================== */
+@media screen and (max-width: 1175px) and (min-width: 989px) {
+  .COL ul li {
+    font-size: 15px;
+    width: 13vw;
+  }
+  .divImgIcon {
+    width: 50% !important;
+  }
+
+  .img {
+    width: 150px !important;
+  }
+  .inputClass {
+    width: 100%;
+  }
+  .icon {
+    right: 5%;
+  }
+  .SearchCol {
+    width: 40%;
+  }
+  .iconsCol {
+    width: 60%;
+  }
+}
+
+/* =============================================================================== */
+@media screen and (max-width: 989px) and (min-width: 769px) {
+  .Container {
+    padding: 10px !important;
+  }
+  .COL {
+    width: 100vw;
+    padding: 0px !important;
+  }
+  .divImgIcon {
+    width: 7% !important;
+  }
+
+  .COL p {
+    margin: 0px !important;
+    color: #fff !important;
+  }
+  .COL ul li {
+    width: 20vw;
+  }
+  .SearchCol {
+    width: 40%;
+  }
+  .iconsCol {
+    width: 60%;
+  }
+  .InputDiv {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .inputClass {
+    width: 100%;
+  }
+  .icon {
+    right: 5%;
+  }
+  .img {
+    width: 150px;
+  }
+  .inactive {
+    display: none;
+  }
+}
+
+/* =============================================================================== */
+@media screen and (max-width: 768px) {
+  .Container {
+    padding: 0px !important;
+  }
+  .iconsCol i {
+    font-size: 20px !important;
+  }
+  .COL p {
+    margin: 0px !important;
+    color: #fff !important;
+  }
+  .COL ul li {
+    width: 50vw;
+  }
+  .COL {
+    width: 100vw;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .divImgIcon {
+    width: 15% !important;
+  }
+  .SearchCol {
+    width: 100%;
+  }
+  .iconsDiv {
+    margin-top: 30px;
+    justify-content: center !important;
+  }
+  .imgDiv {
+    margin-top: 30px;
+    justify-content: center !important;
+  }
+  .iconsCol {
+    width: 100%;
+  }
+  .InputDiv {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .inputClass {
+    width: 100%;
+  }
+  .icon {
+    right: 5%;
+  }
+  .img {
+    width: 150px;
+  }
+  .inactive {
+    display: none !important;
+  }
+}
+
+/* =============================================================================== */
